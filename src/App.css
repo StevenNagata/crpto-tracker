@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background-color: rgba(34,34,34) !important;
+  color: rgba(197,197,197);
+}
+.App {
+  margin: 0;
+  background-color: rgba(34,34,34);
+  text-align: center;
+}
+
+.mainBox {
+  background-color: rgba(34,34,34);
+  text-align: center;
+  border-radius: 3px;
+  padding: 2px;
+  z-index: 10;
+}
+svg {z-index: -1;}
+.priceBox {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.25rem;
+  border-radius: 3px;
+  width: 120px;
+  text-align: right;
+  position: absolute;
+  top: 25%;
+  right:0;
+  transform: translate(0, -25%);
+}
+
+.editLink:hover {
+  cursor: pointer;
+}
+
+
+.col1before {
+  width: 80% !important;
+  transition: all 2s;
+}
+
+.col1after {
+  width: 30% !important;
+  transition: all 1s;
+}
+
+.transition {
+  transition: all 1s;
+}
+.transition2 {
+  transition: all 2s;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.newsTitle {
+ font-size: 1.1rem;
+ color: #d4d4d4;
+ margin-bottom: 0.5rem;
+}
+
+.newsSummary {
+  margin: 0.5rem 0;
+  max-height: 100px;
+  overflow: hidden;              /* "overflow" value must be different from  visible"*/ 
+    -o-text-overflow: ellipsis;    /* Opera < 11*/
+    text-overflow:    ellipsis; 
+}
+
+.newsDate {
+  font-size: 0.875rem;
+  color: grey;
+}
+
+.ui.checkbox label:before {
+  border-radius: 50%;
+}
+
+.listItem {
+  padding: 0.5rem !important; 
+}
+
+/* .listItem:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.1);
+} */
+
+.candleContianer {
+  width: 15px;
+  margin: 1rem 2px;
+}
+.topWick {
+  /* height: 50px; */
+  margin: 0 6px;
+  width: 3px;
+  background-color: green;
+}
+
+.candleBody {
+  /* height: 5px; */
+  width: 15px;
+  background-color: green;
+}
+
+.bottomWick {
+  /* height: 50px; */
+  margin: 0 6px;
+
+  width: 3px;
+  background-color: green;
+}
+
+.hoverLink:hover {
+  cursor: pointer;
+}
+
+.apexcharts-canvas {
+  margin: auto;
+}

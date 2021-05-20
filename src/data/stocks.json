@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "SPDR Gold Trust",
+        "Sector": "Industrials",
+        "Symbol": "GLD"
+    },
+    {
+        "Name": "SPDR S&P 500 ETF",
+        "Sector": "",
+        "Symbol": "SPY"
+    },
+    {
+        "Name": "PowerShares QQQ Trust",
+        "Sector": "Industrials",
+        "Symbol": "QQQ"
+    },
+    {
+        "Name": "SPDR TRUST FINANCIAL",
+        "Sector": "Industrials",
+        "Symbol": "XLF"
+    },
+    {
+        "Name": "DOW JONES INDUSTRIAL AVERAGE INDEX",
+        "Sector": "Industrials",
+        "Symbol": "DJI"
+    },
+    {
+        "Name": "VOLATILITY S&P 500 INDEX",
+        "Sector": "Industrials",
+        "Symbol": "VIX"
+    }
+]

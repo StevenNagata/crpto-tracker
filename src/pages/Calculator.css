@@ -1,0 +1,4 @@
+.optionTableStrink {
+ transition: width 0.3s ease-out;
+    width: '200px'
+}
